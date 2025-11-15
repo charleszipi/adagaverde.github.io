@@ -11,8 +11,10 @@ body {
 	align-items: center;
 }
 .caixa-de-dentro > img {
-	width: inherit;
-	max-width: inherit;
+	display: flex;
+    margin: auto;
+	width: 50%;
+    max-width: inherit;
 }
 .caixa-de-dentro > p {
 	width: inherit;
@@ -20,7 +22,7 @@ body {
 	line-height: 1.4;
 	text-align: center;
 	color: black;
-	opacity: 0.1;
+	opacity: 0.7;
 }
 
 @media only screen and (max-width: 599px) {
