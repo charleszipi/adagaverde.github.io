@@ -33,6 +33,9 @@ body {
 	.caixa-de-dentro > p {
 		font-size: 1rem;
 	}
+	p.legenda{
+		font-size: 0.5rem;
+	}
 }
 @media only screen and (min-width: 600px) and (max-width: 899px) {
 	.caixa-de-dentro {
@@ -42,6 +45,9 @@ body {
 	.caixa-de-dentro > p {
 		font-size: 1.25rem;
 	}
+	p.legenda{
+		font-size: 0.75rem;
+	}
 }
 @media only screen and (min-width: 900px) {
 	.caixa-de-dentro {
@@ -50,5 +56,8 @@ body {
 	}
 	.caixa-de-dentro > p {
 		font-size: 1.5rem;
+	}
+	p.legenda{
+		font-size: 1rem;
 	}
 }
