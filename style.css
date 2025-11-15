@@ -16,23 +16,24 @@ body {
 	width: 50%;
     max-width: inherit;
 }
-.caixa-de-dentro > p {
+.caixa-de-dentro > p, a {
 	width: inherit;
 	font-family: courier;
 	line-height: 1.4;
 	text-align: center;
+}
+.caixa-de-dentro > p {
 	color: black;
 	opacity: 0.7;
 }
-.botao {
-	background-color: 5eb35a;
-	border: none;
-	color: white;
-	padding: 0.5rem;
-	text-align: center;
-	text-decoration: none;
+
+.caixa-de-dentro > a {
 	display: inline-block;
-	margin: 0.5rem;
+	background-color: #5eb35a;
+	color: white;
+	text-decoration: none;
+	padding: 1rem 0;
+	margin: 1rem 0;
 	cursor: pointer; 
 }
 
