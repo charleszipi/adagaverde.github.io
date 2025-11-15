@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	/*background-color: #FFFAF5;*/
-	background-image: url("static/polen.jpg");
+	background-image: url("static/polen-suave.jpg");
     background-repeat: repeat;
 	overflow: scroll;
 }
@@ -17,6 +17,7 @@ body {
     margin: auto;
 	width: 50%;
     max-width: inherit;
+	mix-blend-mode: multiply;
 }
 .caixa-de-dentro > p, a {
 	width: inherit;
@@ -35,7 +36,8 @@ body {
 	text-decoration: none;
 	padding: 1rem 0;
 	margin: 1rem 0;
-	cursor: pointer; 
+	cursor: pointer;
+	mix-blend-mode: multiply;
 }
 p.legenda {
 	font-style: italic;
