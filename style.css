@@ -15,18 +15,12 @@ body {
 	max-width: inherit;
 }
 .caixa-de-dentro > p {
-	/*display: none;*/
-	position: absolute;
 	width: inherit;
 	font-family: courier;
 	line-height: 1.4;
 	text-align: center;
 	color: black;
 	opacity: 0.1;
-}
-
-.caixa-de-dentro:hover > p {
-	/*display: block;*/
 }
 
 @media only screen and (max-width: 599px) {
