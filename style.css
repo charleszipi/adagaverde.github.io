@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	background-color: #FFFAF5;
+	overflow: scroll;
+}
+.caixa-de-fora {
+	display: flex;
+	width: 100vw;
+    height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.caixa-de-dentro > img {
+	width: inherit;
+	max-width: inherit;
+}
+.caixa-de-dentro > p {
+	display: none;
+	position: absolute;
+	width: inherit;
+	font-family: courier;
+	line-height: 1.4;
+	text-align: center;
+	color: black;
+	opacity: 0.1;
+}
+
+.caixa-de-dentro:hover > p {
+	display: block;
+}
+
+@media only screen and (max-width: 599px) {
+	.caixa-de-dentro {
+		width: 58vw;
+		max-width: 600px;
+	}
+	.caixa-de-dentro > p {
+		font-size: 1rem;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+	.caixa-de-dentro {
+		width: 48vw;
+		max-width: 600px;
+	}
+	.caixa-de-dentro > p {
+		font-size: 1.25rem;
+	}
+}
+@media only screen and (min-width: 900px) {
+	.caixa-de-dentro {
+		width: 24vw;
+		max-width: 600px;
+	}
+	.caixa-de-dentro > p {
+		font-size: 1.5rem;
+	}
+}
