@@ -30,6 +30,7 @@ body {
 .caixa-de-dentro > p {
 	color: black;
 	opacity: 0.7;
+	mix-blend-mode: multiply;
 }
 .caixa-de-dentro > a {
 	display: inline-block;
