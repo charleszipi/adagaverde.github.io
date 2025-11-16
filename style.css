@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
 	margin: 0;
 	/*background-color: #FFFAF5;*/
@@ -21,7 +23,7 @@ body {
 }
 .caixa-de-dentro > p, a {
 	width: inherit;
-	font-family: courier;
+	font-family: Courier Prime;
 	line-height: 1.4;
 	text-align: center;
 }
