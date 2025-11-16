@@ -49,11 +49,11 @@ p.legenda {
 		width: 58vw;
 		max-width: 600px;
 	}
-	.caixa-de-dentro > p {
-		font-size: 1rem;
+	.caixa-de-dentro > p, a {
+		font-size: 1.5rem;
 	}
 	p.legenda{
-		font-size: 0.5rem;
+		font-size: 1rem;
 	}
 }
 @media only screen and (min-width: 600px) and (max-width: 899px) {
@@ -61,11 +61,11 @@ p.legenda {
 		width: 48vw;
 		max-width: 600px;
 	}
-	.caixa-de-dentro > p {
-		font-size: 1.25rem;
+	.caixa-de-dentro > p, a {
+		font-size: 1.5rem;
 	}
 	p.legenda{
-		font-size: 0.75rem;
+		font-size: 1rem;
 	}
 }
 @media only screen and (min-width: 900px) {
@@ -73,7 +73,7 @@ p.legenda {
 		width: 24vw;
 		max-width: 600px;
 	}
-	.caixa-de-dentro > p {
+	.caixa-de-dentro > p, a {
 		font-size: 1.5rem;
 	}
 	p.legenda{
